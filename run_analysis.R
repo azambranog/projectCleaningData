@@ -67,4 +67,4 @@ tidySet<-tidySet[order(tidySet$Subject,tidySet$Activity),]
 ### export to csv and txt files
 
 write.csv(tidySet,"tidySet.csv",row.names=FALSE)
-write.csv(tidySet,"tidySet.txt",row.names=FALSE)
+write.table(tidySet,"tidySet.txt",row.names=FALSE)
