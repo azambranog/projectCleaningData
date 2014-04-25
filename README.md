@@ -33,3 +33,5 @@ This script creates the required data set following these steps:
 * 9) join both sets into s single tidy set
 * 10) order the tody set by subject and activity only becuase it looks nicer :-)
 * 11) write the tidy set into  txt and csv format (just cuz it is nice to have two formats)
+
+NOTE: THE SCRIPT WORKS AS LONG AS YOU GET THE DATA IN THE SAME WORKING DIRECTORY
